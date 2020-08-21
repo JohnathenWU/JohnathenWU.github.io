@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>balabala</title>
-    <url>/archives/balabala.html</url>
-    <content><![CDATA[<p>123123</p>
+    <title>1.SQL注入基础</title>
+    <url>/archives/SQL%E6%B3%A8%E5%85%A5%E5%9F%BA%E7%A1%80.html</url>
+    <content><![CDATA[<p>1.SQL注入背景</p>
+<p>SQL全称是“结构化查询语言”，最早是IBM的圣约瑟研究实验室为其关系数据库管理系统SYSTEMR开发的一种查询语言，前身是SQUARE语言。</p>
+<p>其功能包括查询、操纵、定义和控制四个方面，是一个通用的功能极强的关系数据库标准语言。在SQL语言中不需要告诉SQL如何访问数据库，只要告诉SQL需要数据库做什么。</p>
+<p>由于B/S建立在互联网之上，对安全的控制能力较弱，相当一部分的程序员在编写代码时没有对用户的输入数据或者时页面中所需携带的信息进行必要的合法性判断。攻击者利用这个机会提交一段数据库查询代码，根据程序返回的结果，就可以获得一些数据库信息。</p>
+<p>2.SQL注入原理</p>
+<p>SQL注入是一种恶意的SQL代码插入或添加到应用（用户）的输入参数的攻击，攻击者探测出开发这编程过程中的漏洞，利用这些漏洞，巧妙的构造SQL语句，对数据库系统的内容进行直接检索或修改。</p>
+<p>灵活的SQL查询语句+用户输入的数据带入了SQL语句=用户直接操作数据库-&gt;SQL注入漏洞</p>
+<p><img src="https://wuyi-1302905865.cos.ap-chengdu.myqcloud.com/image-20200821141854226.png" alt="image-20200821141854226"></p>
+<p>用户输入可控，代码对用户输入进行了拼接，带入SQL语句，产生SQL注入漏洞。</p>
+<p><img src="https://wuyi-1302905865.cos.ap-chengdu.myqcloud.com/image-20200821142013180.png" alt=""></p>
 ]]></content>
+      <categories>
+        <category>1.SQL注入背景</category>
+        <category>2.SQL注入原理</category>
+      </categories>
+      <tags>
+        <tag>1.SQL</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
